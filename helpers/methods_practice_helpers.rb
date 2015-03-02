@@ -12,7 +12,7 @@ module MethodsPracticeHelpers
   end
 
   def current_date_and_time
-    Time.now.strftime('%B %-e, %Y at%l:%M%P')
+    Time.now.getlocal.strftime('%B %-e, %Y at%l:%M%P')
   end
 
 end
